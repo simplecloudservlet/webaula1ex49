@@ -161,22 +161,19 @@
 		criarTabelas($db);
 
 		//TODO3
-		//definirUTF8($db);
-
-		//TODO4
 		$fname = 'cidades.xml';
 		$xml = abrirArquivoXML($fname);
 
-		//TODO5
+		//TODO4
 		lerArquivoXML($db,$xml,$fname);
 
-		//TODO6
+		//TODO5
 		imprimir($db, "T_CIDADES");
 
-		//TODO7
+		//TODO6
 		fecharArquivoXML($xml,$fname);
 			
-		//TODO12
+		//TODO7
 		limparTabelas($db);
 
 	}
