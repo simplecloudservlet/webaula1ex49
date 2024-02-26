@@ -1,0 +1,11 @@
+
+WEBAULA1EX48
+
+git init
+git add *
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/simplecloudservlet/webaula1ex48.git
+git push -u origin main
+
+---
